@@ -3,16 +3,7 @@ import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
 
 export default function Home({ posts }) {
-  // const posts = [
-  //   {
-  //     title: 'React Testing',
-  //     excerpt: 'Learn React Testing',
-  //   },
-  //   {
-  //     title: 'React with tailwind',
-  //     excerpt: 'Learn React with tailwind',
-  //   },
-  // ];
+  
   return (
     <div className="container mx-auto px-10 mb-8">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
